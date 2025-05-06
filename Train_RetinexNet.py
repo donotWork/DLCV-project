@@ -11,8 +11,8 @@ parser.add_argument('--epochs', dest='epochs', type=int, default=100, help='numb
 parser.add_argument('--batch_size', dest='batch_size', type=int, default=16, help='number of samples in one batch')
 parser.add_argument('--patch_size', dest='patch_size', type=int, default=96, help='patch size')
 parser.add_argument('--lr', dest='lr', type=float, default=0.001, help='initial learning rate')
-parser.add_argument('--data_dir', dest='data_dir', default='/home/sethupathyp/project/RetinexNet_Dataset/', help='directory storing the training data')
-parser.add_argument('--ckpt_dir', dest='ckpt_dir', default='/home/sethupathyp/project/ckpts/', help='directory for checkpoints')
+parser.add_argument('--data_dir', dest='data_dir', default='/home/gautamarora/project/RetinexNet_Dataset/', help='directory storing the training data')
+parser.add_argument('--ckpt_dir', dest='ckpt_dir', default='/home/gautamarora/project/ckpts/', help='directory for checkpoints')
 
 args, _ = parser.parse_known_args()
 
