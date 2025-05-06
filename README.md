@@ -12,7 +12,8 @@ I have used python 3.12 for my code, so make sure to have that or any compatible
 Make a conda environment, using following command, 
 conda create --name <my-env>
 
-> [!NOTE] I made the environment named loco for my code. But if you want to make a environment
+> [!NOTE]
+> I made the environment named loco for my code. But if you want to make a environment
 by some other name you can but, but make sure to call it in the .sh file appropriately.
 
 Install the following libraries in the environment.
