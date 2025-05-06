@@ -37,7 +37,7 @@ Once it is done, environment setup is Done.
 
 # Data setup
 Now setup the data as follows, 
-Download the data from the given drive link.
+<!--  Download the data from the given drive link. -->
 
 
 **You can find the data online as well, on the online platforms whose links are as follows,**
