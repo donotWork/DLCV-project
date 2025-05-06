@@ -1,0 +1,17 @@
+names:
+- face
+nc: 1
+train: /home/gautamarora/project/dark_face/train
+val: /home/gautamarora/project/dark_face/val
+test: /home/gautamarora/project/dark_face/test
+
+augment:
+  fliplr: 0.5        # 50% chance horizontal flip
+  scale: 0.2         # ±20% scaling
+  degrees: 10         # rotate randomly between -10 and +10 degrees
+  translate: 0.1     # ±10% translation
+  shear: 5           # shear angle in degrees
+  perspective: 0.0005  # perspective transform
+  hsv_h: 0.015       # HSV hue augmentation
+  hsv_s: 0.7         # HSV saturation
+  hsv_v: 0.4         # HSV brightness
