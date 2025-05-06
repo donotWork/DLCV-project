@@ -21,10 +21,11 @@ Install the following libraries in the environment.
 pillow , numpy, matplotlib, ipython, pytorch-msssim, torch, torchvision, ultralytics, albumentations
 
 
-* Note: If you get a error on the vgg16 module missing, download pretrained vgg16 model, and save it into
+> [!NOTE]
+>  If you get a error on the vgg16 module missing, download pretrained vgg16 model, and save it into
 the cache of the device, so that model is able to recognize it.
- Or
-Run the PyTorch download part of the vgg16 model, in the machine with internet, and transfer the model 
+> 					Or
+> Run the PyTorch download part of the vgg16 model, in the machine with internet, and transfer the model 
 from there to your device. 
 
 * Download the pretrained yolov8m model from online as well, and save it in your main directory.
