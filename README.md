@@ -40,7 +40,7 @@ Now setup the data as follows,
 Download the data from the given drive link.
 
 
-**You can find the data online as well, on the online platforms whose links are as follows, **
+**You can find the data online as well, on the online platforms whose links are as follows,**
 
 Dark_face dataset:	https://www.kaggle.com/datasets/soumikrakshit/dark-face-dataset \
 WIDER_FACE dataset:	http://shuoyang1213.me/WIDERFACE/ \
