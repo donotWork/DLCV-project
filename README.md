@@ -93,5 +93,5 @@ Now split the darkface dataset, using the data split code provided in the repo.
 Once the above steps are done run the yolo train model, for getting the final results.
 
 > [!TIP] If you have any querries regarding the data structure for the RetinexNet.
-> You can look into the original repository for the better understanding of it.
+> You can look into the original repository for the better understanding of it.\
 > https://github.com/aasharma90/RetinexNet_PyTorch
