@@ -8,9 +8,9 @@ from RetinexNet_Modified import RetinexNet  # type: ignore # import the model ma
 parser = argparse.ArgumentParser(description='')
 
 parser.add_argument('--gpu_id', dest='gpu_id', default="0", help='GPU ID (-1 for CPU)')
-parser.add_argument('--data_dir', dest='data_dir', default='/home/sethupathyp/project/dark_face/image', help='directory storing the test data')
-parser.add_argument('--ckpt_dir', dest='ckpt_dir', default='/home/sethupathyp/project/ckpts/', help='directory for checkpoints')
-parser.add_argument('--res_dir', dest='res_dir', default='/home/sethupathyp/project/results/', help='directory for saving the results')
+parser.add_argument('--data_dir', dest='data_dir', default='/home/gautamarora/project/dark_face/image', help='directory storing the test data')
+parser.add_argument('--ckpt_dir', dest='ckpt_dir', default='/home/gautamarora/project/ckpts/', help='directory for checkpoints')
+parser.add_argument('--res_dir', dest='res_dir', default='/home/gautamarora/project/results/', help='directory for saving the results')
 
 args, _ = parser.parse_known_args()
 
