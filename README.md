@@ -74,8 +74,6 @@ kindly check that carefully. Otherwise code will give some error. On my end I ha
 full paths for all of my directories related to my system.
 
 
-Training the RetinexNet code, for generating well lit images from low light images.
-
 Save all the codes in the main dir your system, and run the code.
 
 
@@ -93,3 +91,7 @@ Now split the darkface dataset, using the data split code provided in the repo.
 
 
 Once the above steps are done run the yolo train model, for getting the final results.
+
+> [!TIP] If you have any querries regarding the data structure for the RetinexNet.
+> You can look into the original repository for the better understanding of it.
+> https://github.com/aasharma90/RetinexNet_PyTorch
