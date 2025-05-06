@@ -85,9 +85,11 @@ Train the RetinexNet model on the RetinexNet data whose download link is provide
 After training the model, run the prediction model on the dark_face dataset, to get the relit images for the darkface dataset.
 
 ## Objection Detection
-After getting relit images of darkface dataset. Split the darkface dataset, using the data split code provided in the repo.
+After getting relit images, change the formatting of labels to the YOLO acceptable format. A python file is provided in code that converts the dark_face annotations, to the YOLO acceptable annotations, and saves them in a new folder.
+Now split the darkface dataset, using the data split code provided in the repo.
 > [!NOTE]
 > It will only split data into 2 parts, so run the code twice, first for train val split and then for val test split, but change the folder paths in the code, accordingly.
 > The labels will be split together with the data only.
 
 
+Once the above steps are done run the yolo train model, for getting the final results.
