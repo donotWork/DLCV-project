@@ -77,3 +77,17 @@ full paths for all of my directories related to my system.
 Training the RetinexNet code, for generating well lit images from low light images.
 
 Save all the codes in the main dir your system, and run the code.
+
+
+# Run
+## RetinexNet
+Train the RetinexNet model on the RetinexNet data whose download link is provided to you.
+After training the model, run the prediction model on the dark_face dataset, to get the relit images for the darkface dataset.
+
+## Objection Detection
+After getting relit images of darkface dataset. Split the darkface dataset, using the data split code provided in the repo.
+> [!NOTE]
+> It will only split data into 2 parts, so run the code twice, first for train val split and then for val test split, but change the folder paths in the code, accordingly.
+> The labels will be split together with the data only.
+
+
