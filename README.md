@@ -50,22 +50,22 @@ RetinexNet dataset:	https://daooshee.github.io/BMVC2018website/
 Note: Even though images and all is fine, kindly convert the labels of the dataset into the required YOLO format
  when you download the dataset from the links given above.
 
-Structure the dataset as follows, 
-main dir:
-	WIDER_train:
-		images
-		labels
-	WIDER_val:
-		images
-		labels
-	dark_face:
-		images
-		labels
-	RetinexNet_Dataset:
-		retinexdata:
-			our485
-			syn
-			test
+Structure the dataset as follows, \
+main dir: \
+--------WIDER_train: \
+--------------------images: \
+--------------------labels: \
+--------WIDER_val: \
+------------------images: \
+------------------labels: \
+--------dark_face: \
+------------------images: \
+------------------labels: \
+--------RetinexNet_Dataset: \
+------------------retinexdata: \
+------------------------our485: \ 
+------------------------syn: \
+------------------------test: \
 
 
 
