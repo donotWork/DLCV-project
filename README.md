@@ -23,8 +23,8 @@ pillow , numpy, matplotlib, ipython, pytorch-msssim, torch, torchvision, ultraly
 
 > [!NOTE]
 >  If you get a error on the vgg16 module missing, download pretrained vgg16 model, and save it into
-the cache of the device, so that model is able to recognize it.
-> 					Or
+the cache of the device, so that model is able to recognize it.\
+> 					Or\
 > Run the PyTorch download part of the vgg16 model, in the machine with internet, and transfer the model 
 from there to your device. 
 
