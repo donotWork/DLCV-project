@@ -42,7 +42,7 @@ Download the data from the given drive link.
 
 Dark_face dataset:	https://www.kaggle.com/datasets/soumikrakshit/dark-face-dataset \
 WIDER_FACE dataset:	http://shuoyang1213.me/WIDERFACE/ \
-RetinexNet dataset:	https://daooshee.github.io/BMVC2018website/ \
+RetinexNet dataset:	https://daooshee.github.io/BMVC2018website/
 
 
 Note: Even though images and all is fine, kindly convert the labels of the dataset into the required YOLO format
